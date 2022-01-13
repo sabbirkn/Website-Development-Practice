@@ -1,0 +1,25 @@
+.wrapper {
+        width: 1200px;
+        margin: 0 auto;
+}
+
+#pageheader {
+
+    background-color: blueviolet;
+
+}
+
+img.logo {
+
+    width: 250px;
+    height: auto;
+}
+
+.ourmenu {
+    background-color: brown;
+}
+
+.ourmenu ul li {
+
+    display: inline;
+}
