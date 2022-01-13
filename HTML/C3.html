@@ -68,36 +68,55 @@
         <input type="submit" value="Send"><br><br>
         <textarea name="textarea" id="" cols="35" rows="10"></textarea>
         </form>
-    <table>
-        <thead>
+    <table id="table1" class="firsttable">
+        <caption>This is our first table</caption><br>
         <tr>
-            <th>HTML</th>
+             <th>HTML</th>
             <th>CSS</th>
-            <th>JS</th>   
+            <th>JS</th>
+            <th>PHP</th>
         </tr>
-    </thead>
-        <tbody>
         <tr>
             <td>1</td>
             <td>2</td>
             <td>3</td>   
+            <td>4</td>   
         </tr>
 
         <tr>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>   
+            <td rowspan="2">5</td>
+            <td>6</td>
+            <td>7</td>   
+            <td>8</td>   
         </tr>
-    </tbody>
-    <tfoot>
         <tr>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>   
+            <!-- <td>9</td> -->
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
         </tr>
-    </tfoot>
-    </table>
+    </table><br><br>
 
-</div>
+    <picture>
+
+            <source media="(min-width: 800px)" srcset="images/img3.jpg">
+            <source media="(min-width: 500px)" srcset="images/img4.jfif">
+            <img src="images/img5.jfif" alt="Default Photo">
+
+    </picture><br><br>
+
+    <canvas width="200px" height="100px" style="border:1px solid #000"></canvas>
+
+    <svg width="200px" height="100">
+        <circle cx='50' cy='50' r='40' stroke='red' stroke-width='4' fill='yellow'></circle>
+    </svg>
+
+    <progress id="myprogress" value="70" max="100">90%</progress>
+        <label for="myprogress">HTML Learning: </label><br>
+
+        <meter id="mymeter" value="0.9">9 out of 10</meter>
+        <label for="mymeter">HTML Learning: </label><br>
+
+</div> <!-- End Of Wrapper-->
 </body>
 </html>
